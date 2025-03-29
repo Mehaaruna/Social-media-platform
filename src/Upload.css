@@ -1,0 +1,39 @@
+.upload-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+.upload-page h2, 
+.upload-page input, 
+.upload-page button {
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+    background: transparent !important;
+}
+.upload-page input {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.upload-page button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.upload-page button:hover {
+    background-color: #0056b3;
+}
+* {
+    box-shadow: none !important;
+    border: none !important;
+}
