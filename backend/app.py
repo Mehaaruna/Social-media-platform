@@ -166,7 +166,7 @@ def get_user_posts(user_id):
         conn = psycopg2.connect("dbname=social_media_db user=postgres password=kavin17")
         cur = conn.cursor()
 
-        # ✅ Fix table name and join with users table
+      
         cur.execute("""
             SELECT posts.id, posts.image_url, posts.likes 
             FROM posts 
