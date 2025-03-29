@@ -1,4 +1,3 @@
-/* Home.css */
 
 .home-container {
     display: flex;
@@ -16,7 +15,7 @@
 .post-header {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Align items to the left */
+    justify-content: flex-start;
     padding: 10px;
     font-weight: bold;
 }
