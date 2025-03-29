@@ -7,7 +7,7 @@ import Profile from "./Profile";
 import UploadPost from "./UploadPost";
 import "./App.css"
 function App() {
-  //const [user, setUser] = useState(null);
+  
   return (
     <Router>
       <nav className="navbar">
